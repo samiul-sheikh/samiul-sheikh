@@ -1,0 +1,144 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { TypingAnimation } from "@/components/ui/typing-animation";
+import { Particles } from "@/components/ui/particles";
+
+export function HeroSection() {
+    return (
+        <section className="pt-36 pb-20 relative overflow-hidden bg-[#050709]">
+            {/* Particles Background */}
+            <Particles
+                className="absolute inset-0 z-0"
+                quantity={120}
+                ease={80}
+                color="#ffffff"
+                size={0.5}
+                staticity={30}
+            />
+
+            {/* Background decorations */}
+            <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-blue-900/20 rounded-full blur-[100px] pointer-events-none" />
+
+            <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+                {/* Left Content */}
+                <div className="space-y-8 relative z-10 order-2 lg:order-1">
+                    <h3 className="text-2xl font-bold text-white tracking-wide">
+                        I am Samiul Sheikh
+                    </h3>
+
+                    <h1 className="text-5xl lg:text-[70px] font-bold leading-[1.1] tracking-tight">
+                        <TypingAnimation
+                            className="text-gradient-blue text-5xl lg:text-[70px] font-bold leading-[1.1] tracking-tight"
+                            words={["Next-Level Web", "Creative Frontend", "Full Stack"]}
+                            loop={true}
+                            typeSpeed={80}
+                            deleteSpeed={50}
+                            pauseDelay={2000}
+                            cursorStyle="line"
+                        />
+                        <br />
+                        <span className="text-white">Developer.</span>
+                    </h1>
+
+                    <p className="text-gray-400 max-w-lg leading-relaxed text-lg">
+                        I break down complex user experience problems to create integrity-focused
+                        solutions that connect billions of people
+                    </p>
+
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 pt-4">
+                        <Link
+                            href="#"
+                            className="px-8 py-3.5 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all flex items-center gap-2 group text-sm font-medium hover:shadow-[0_0_20px_rgba(43,127,255,0.3)]"
+                        >
+                            Download CV
+                            <span className="material-symbols-outlined text-sm group-hover:translate-y-1 transition-transform">
+                                download
+                            </span>
+                        </Link>
+
+                        <div className="flex gap-4">
+                            <Link
+                                href="#"
+                                className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all hover:scale-110"
+                            >
+                                <span className="font-bold text-sm">Tw</span>
+                            </Link>
+                            <Link
+                                href="#"
+                                className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all hover:scale-110"
+                            >
+                                <span className="font-bold text-sm">Dr</span>
+                            </Link>
+                            <Link
+                                href="#"
+                                className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all hover:scale-110"
+                            >
+                                <span className="font-bold text-sm">Li</span>
+                            </Link>
+                            <Link
+                                href="#"
+                                className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all hover:scale-110"
+                            >
+                                <span className="font-bold text-sm">Gh</span>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Right Content - Hero Image */}
+                <div className="relative flex justify-center lg:justify-end order-1 lg:order-2 mb-8 lg:mb-0">
+                    <div className="relative w-[300px] h-[350px] sm:w-[350px] sm:h-[400px] lg:w-[480px] lg:h-[550px] rounded-[30px] overflow-hidden border-2 border-secondary rotate-3 hover:rotate-0 transition-all duration-500 shadow-2xl shadow-primary/10 bg-card">
+                        <Image
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuComLKFP7t8h9e9bItsyl4PqITV5cuBC6oHR29VeV2Z_t2Qn2EqdKINPK6g5WjU7fzQoL3zn3QwhG9yYxcA685qQqkKffPHZBcOwe-AavdK_rPgnSdBmYTew-8wj3cOPNScrrEEauts4zmLh7jj3NNS1X-I60uWBiUoLW5DVe01PBFUPim2R4pTr_zzsijtUVKqma8j3Ybn6lAjKIXuKxd_dcv0X6IrMdrB7qxcneuGQ0xnGxwyqLtkyFxw-WccrNC3a7wLn85Maj8"
+                            alt="Samiul Sheikh Portrait"
+                            fill
+                            className="object-cover grayscale hover:grayscale-0 transition-all duration-500 scale-105"
+                            priority
+                        />
+                    </div>
+                </div>
+            </div>
+
+            {/* Stats */}
+            <div className="container mx-auto px-6 mt-20 relative z-10">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-10">
+                    <div className="flex items-center gap-3">
+                        <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
+                            14
+                        </span>
+                        <span className="text-sm text-gray-400">
+                            Years of <br />Experience
+                        </span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                        <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
+                            50+
+                        </span>
+                        <span className="text-sm text-gray-400">
+                            Project <br />Completed
+                        </span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                        <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
+                            1.5K
+                        </span>
+                        <span className="text-sm text-gray-400">
+                            Happy <br />Clients
+                        </span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                        <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
+                            14
+                        </span>
+                        <span className="text-sm text-gray-400">
+                            Years of <br />Experience
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
