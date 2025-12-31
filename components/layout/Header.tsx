@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function Header() {
@@ -11,6 +12,13 @@ export function Header() {
                     <span className="text-sm font-semibold hidden md:block text-gray-300 group-hover:text-white transition-colors">
                         mail@samiulsheikh.com
                     </span>
+                    {/* <Image
+                        src="/logo.png"
+                        alt="Logo"
+                        width={200}
+                        height={200}
+                        className="w-20 h-20 rounded-full"
+                    /> */}
                 </Link>
 
                 <nav className="hidden md:flex gap-8 text-sm font-medium text-gray-300">

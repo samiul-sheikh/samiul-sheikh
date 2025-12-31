@@ -48,9 +48,9 @@ export function ContactSection() {
                             <select className="bg-input border border-gray-800 text-gray-400 rounded-lg p-3 w-full h-12 focus:ring-1 focus:ring-primary focus:border-primary outline-none text-sm">
                                 <option>Select an option</option>
                                 <option>Web Development</option>
-                                <option>UI/UX Design</option>
-                                <option>Mobile App Development</option>
-                                <option>Other</option>
+                                <option>Custom Software Development</option>
+                                <option>Digital Marketing</option>
+                                <option>Others</option>
                             </select>
 
                             <Textarea
@@ -77,10 +77,24 @@ export function ContactSection() {
                             <div>
                                 <p className="text-gray-400 text-sm">Phone</p>
                                 <h4 className="text-white font-bold text-lg hover:text-primary transition-colors cursor-pointer">
-                                    +01 123 654 8096
+                                    +88 01784097404
                                 </h4>
                             </div>
                         </div>
+
+                        <div className="flex items-center gap-4">
+                            <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
+                                {/* <span className="material-symbols-outlined text-xl">whatsApp</span> */}
+                            </div>
+                            <div>
+                                <p className="text-gray-400 text-sm">Whatsapp</p>
+                                <h4 className="text-white font-bold text-lg hover:text-primary transition-colors cursor-pointer">
+                                    +88 01784097404
+                                </h4>
+                            </div>
+                        </div>
+
+
 
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
@@ -89,7 +103,7 @@ export function ContactSection() {
                             <div>
                                 <p className="text-gray-400 text-sm">Email</p>
                                 <h4 className="text-white font-bold text-lg hover:text-primary transition-colors cursor-pointer">
-                                    samiulsheikh@mail.com
+                                    sheikh.samiul1971@gmail.com
                                 </h4>
                             </div>
                         </div>
@@ -103,9 +117,7 @@ export function ContactSection() {
                             <div>
                                 <p className="text-gray-400 text-sm">Address</p>
                                 <h4 className="text-white font-bold text-lg">
-                                    Warne Park Street Pine,
-                                    <br />
-                                    FL 33157, New York
+                                    Mirpur, Dhaka,Bangladesh
                                 </h4>
                             </div>
                         </div>

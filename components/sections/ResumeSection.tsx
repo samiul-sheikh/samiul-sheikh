@@ -4,7 +4,7 @@ import { Timeline } from "@/components/ui/timeline";
 
 const experienceData = [
     {
-        title: "2022 - Present",
+        title: "2022 - 2025",
         content: (
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
@@ -12,8 +12,8 @@ const experienceData = [
                         <span className="material-symbols-outlined text-white text-2xl">code</span>
                     </div>
                     <div>
-                        <h4 className="text-xl font-bold text-white">Lead Developer</h4>
-                        <p className="text-gray-400 text-sm">Blockdots, London</p>
+                        <h4 className="text-xl font-bold text-white">Software Engineer</h4>
+                        <p className="text-gray-400 text-sm">Bindulogic LLC</p>
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -21,9 +21,11 @@ const experienceData = [
                     Architecting scalable solutions and implementing best practices for code quality and performance.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">React</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Next.js</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Node.js</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">TypeScript</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Tailwind CSS</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">PostgreSQL</span>
                 </div>
             </div>
         ),
@@ -37,8 +39,8 @@ const experienceData = [
                         <span className="material-symbols-outlined text-white text-2xl">terminal</span>
                     </div>
                     <div>
-                        <h4 className="text-xl font-bold text-white">Full Stack Web Developer</h4>
-                        <p className="text-gray-400 text-sm">Parsons, The New School</p>
+                        <h4 className="text-xl font-bold text-white">Software Engineer Trainee</h4>
+                        <p className="text-gray-400 text-sm">Bindulogic LLC</p>
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -46,9 +48,9 @@ const experienceData = [
                     Collaborated with design teams to implement responsive user interfaces.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">React</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Node.js</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">PostgreSQL</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">GraphQL</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Chakra UI</span>
                 </div>
             </div>
         ),
@@ -62,8 +64,8 @@ const experienceData = [
                         <span className="material-symbols-outlined text-white text-2xl">palette</span>
                     </div>
                     <div>
-                        <h4 className="text-xl font-bold text-white">UI Designer</h4>
-                        <p className="text-gray-400 text-sm">House of Life, Leeds</p>
+                        <h4 className="text-xl font-bold text-white">IT Consultant</h4>
+                        <p className="text-gray-400 text-sm">Compass Architects</p>
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -71,9 +73,9 @@ const experienceData = [
                     Conducted user research and usability testing to improve product experience.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Figma</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Adobe XD</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Prototyping</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">WordPress</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Digital Marketing</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">SEO</span>
                 </div>
             </div>
         ),
@@ -87,8 +89,8 @@ const experienceData = [
                         <span className="material-symbols-outlined text-white text-2xl">brush</span>
                     </div>
                     <div>
-                        <h4 className="text-xl font-bold text-white">Junior Graphics Designer</h4>
-                        <p className="text-gray-400 text-sm">Theme Junction, Bursa</p>
+                        <h4 className="text-xl font-bold text-white">WordPress Developer</h4>
+                        <p className="text-gray-400 text-sm">Online Marketplace</p>
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -96,9 +98,9 @@ const experienceData = [
                     Collaborated with clients to deliver creative visual solutions.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Photoshop</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Illustrator</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">InDesign</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Wordpress</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">WooCommerce</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Landing page</span>
                 </div>
             </div>
         ),

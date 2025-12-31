@@ -2,21 +2,21 @@ import Image from "next/image";
 
 const blogs = [
     {
-        title: "The Role Of Technology In Modern...",
-        date: "Oct 01, 2023",
-        category: "Business",
+        title: "Ten Basic JavaScript Topics",
+        date: "May 06, 2021",
+        category: "JavaScript",
         image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAL2koHNW-ccxcRD6FYXVrDyASkM_WyXwV8pQQIoR7lQaKK44znxo0WrMHvP-7LSIdfX0N_-VGNIZvJ8SDBiwo4JYy7Mj3ZE31IDPzacmm4XxqquL6S-OOBVywZIut_X5B8g02ICePNQubhzFzD6J7Qr-n77nXrPDMNBogLQRXqNZm1fQYFTPcoiXm-zw-b09ICK3mjh6R2svFSZu6vD8nwtpDwS7u5u-4D75jrabjHBP4Pi5tn93A1GKWAOcFRETNsL5HoRJppPNE",
     },
     {
-        title: "The Role Of Technology In Modern...",
-        date: "Nov 01, 2023",
-        category: "Development",
+        title: "Important JS Topics",
+        date: "Nov 01, 2021",
+        category: "JavaScript",
         image: "https://lh3.googleusercontent.com/aida-public/AB6AXuD-1hs40HrIG2J1Nu81VHDjczAxC-yU0ZF434M_-7vu8LouTjz65cPVTBq0gTR918bCCNKjVaRW64P_Xc4Kmyxlh_gvTBdF3-yydqilwEWUugIo0jS5Kblf5d9puMEBlUWlC_sjszyyEl_GivJzaPj9KGAOkvqOroKM1CtNjTlzIFNmLUoozMcMus8LJCF8J9x-3xHDrOqGTelCqaH2hyNIWxzM_nULVEkBBFZz0rrKqiSpOncJ2ZWXvfYu_vzuqfTjGvgmZIQlmPI",
     },
     {
-        title: "Digital Marketo To Their New Off...",
-        date: "Dec 01, 2023",
-        category: "Portfolio",
+        title: "JavaScript Tips and Tricks",
+        date: "Dec 01, 2021",
+        category: "JavaScript",
         image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAlo-d77GpxmURVDEcMdqA3uCzLOjVJU06ZtgPK16bHhYJrwCx9rTXCgV_R9PLqhSCuJfz44jGADP-tqwlcs1zwtzbhVLfZfIutifWIs5CQXJ3Ts7LVM8wDu4cRZ7TOxVkj2u33nwSmj-Jif2M2xB6cbYiKkVnCAkH9wnovoKLgH60h9obQB_KHYCEdBI1sYKo_xIQJ1-YBhRaWYgKk_Thmg7Y10M45gi7sj1A0Kp5Dz6HMQrK4VFSaURaaIII9uQuPznumfYlwfHg",
     },
 ];

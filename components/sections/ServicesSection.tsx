@@ -6,24 +6,25 @@ const services = [
     {
         number: "01",
         icon: "terminal",
-        title: "Web Development",
+        title: "Frontend Development",
         description: "Building responsive, high-performance websites using modern frameworks like React, Next.js, and Vue.js with clean, maintainable code.",
         gradient: "from-blue-500 to-cyan-400",
     },
     {
         number: "02",
-        icon: "smartphone",
-        title: "Mobile App Development",
-        description: "Creating cross-platform mobile applications using React Native and Flutter that deliver native-like experiences on iOS and Android.",
-        gradient: "from-purple-500 to-pink-400",
-    },
-    {
-        number: "03",
         icon: "database",
         title: "Backend Development",
         description: "Designing robust server-side solutions with Node.js, Python, and PostgreSQL, including RESTful APIs and GraphQL services.",
         gradient: "from-green-500 to-emerald-400",
     },
+    {
+        number: "03",
+        icon: "smartphone",
+        title: "Wordpress Development",
+        description: "Creating cross-platform mobile applications using React Native and Flutter that deliver native-like experiences on iOS and Android.",
+        gradient: "from-purple-500 to-pink-400",
+    },
+
     {
         number: "04",
         icon: "cloud",
