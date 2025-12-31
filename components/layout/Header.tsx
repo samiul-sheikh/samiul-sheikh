@@ -9,9 +9,9 @@ export function Header() {
                     <div className="w-10 h-10 bg-gradient-to-br from-primary to-blue-800 rounded-full flex items-center justify-center text-white font-bold text-xl group-hover:scale-110 transition-transform">
                         S
                     </div>
-                    <span className="text-sm font-semibold hidden md:block text-gray-300 group-hover:text-white transition-colors">
+                    {/* <span className="text-sm font-semibold hidden md:block text-gray-300 group-hover:text-white transition-colors">
                         mail@samiulsheikh.com
-                    </span>
+                    </span> */}
                     {/* <Image
                         src="/logo.png"
                         alt="Logo"
@@ -46,7 +46,7 @@ export function Header() {
                 </nav>
 
                 <Link
-                    href="#contact"
+                    href="https://docs.google.com/document/d/130AeecZ31KtdTB-9yTT-rnJwOkpQZbCXvakVhz0U3l4/export?format=pdf"
                     className="px-7 py-3 bg-gradient-to-r from-primary to-blue-600 text-white rounded-full font-medium text-sm hover:shadow-[0_0_20px_rgba(43,127,255,0.5)] transition-all transform hover:-translate-y-0.5"
                 >
                     Hire Me!

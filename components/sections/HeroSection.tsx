@@ -49,15 +49,27 @@ export function HeroSection() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 pt-4">
-                        <Link
-                            href="#"
+                        {/* <Link
+                            href="https://docs.google.com/document/d/ID/export?format=pdf"
                             className="px-8 py-3.5 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all flex items-center gap-2 group text-sm font-medium hover:shadow-[0_0_20px_rgba(43,127,255,0.3)]"
                         >
                             Download CV
                             <span className="material-symbols-outlined text-sm group-hover:translate-y-1 transition-transform">
                                 download
                             </span>
-                        </Link>
+                        </Link> */}
+
+                        <a
+                            href="https://docs.google.com/document/d/130AeecZ31KtdTB-9yTT-rnJwOkpQZbCXvakVhz0U3l4/export?format=pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-8 py-3.5 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all flex items-center gap-2 group text-sm font-medium hover:shadow-[0_0_20px_rgba(43,127,255,0.3)]"
+                        >
+                            Download CV
+                            <span className="material-symbols-outlined text-sm group-hover:translate-y-1 transition-transform">
+                                download
+                            </span>
+                        </a>
 
                         <div className="flex gap-4">
                             <Link

@@ -63,9 +63,9 @@ export function EducationSection() {
                                 {item.title}
                             </h3>
                             <p className="text-gray-500 text-sm mb-4">{item.institution}</p>
-                            <p className="text-gray-400 text-sm leading-relaxed">
+                            {/* <p className="text-gray-400 text-sm leading-relaxed">
                                 {item.description}
-                            </p>
+                            </p> */}
                         </div>
                     ))}
                 </div>

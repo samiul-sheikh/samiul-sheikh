@@ -5,7 +5,7 @@ const testimonials = [
         icon: "auto_awesome",
         company: "Compass Architects",
         rating: 5,
-        text: '"Taylor is a professional Designer he really helps my business by providing value to my business."',
+        text: '"Samiul Sheikh is a professional Designer he really helps my business by providing value to my business."',
         name: "Khairul Hasan Dollon",
         role: "Fonder & CEO",
         image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAzj3s1puV6eTfy5WMjxLa_n3DJkmWVU-FwYNqXC0z9zqW3aimF2KA4bATiLbzOo7cbbqGRzMwA2qlXrr4w8X7ZRaYwmks1BjWHmJe3DQ8lEedLcR6DPKoREgfhzxcygnNh5Al0DdTBNyYj7d-S3J2IJf91tUgrERx5vluCOREubDGvW4M8BPca9EC-TG7bzhSb4HkhQJ0RyuS621jtvsasGlmdZgbN-VDceDCUzM9sl5sRu6Fbw4yY1B76rMs-ArCjjrA5iqw4YZs",

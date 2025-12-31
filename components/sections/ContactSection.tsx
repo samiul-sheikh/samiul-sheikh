@@ -84,20 +84,6 @@ export function ContactSection() {
 
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
-                                {/* <span className="material-symbols-outlined text-xl">whatsApp</span> */}
-                            </div>
-                            <div>
-                                <p className="text-gray-400 text-sm">Whatsapp</p>
-                                <h4 className="text-white font-bold text-lg hover:text-primary transition-colors cursor-pointer">
-                                    +88 01784097404
-                                </h4>
-                            </div>
-                        </div>
-
-
-
-                        <div className="flex items-center gap-4">
-                            <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-blue-600 flex items-center justify-center text-white shrink-0">
                                 <span className="material-symbols-outlined text-xl">email</span>
                             </div>
                             <div>
@@ -117,7 +103,7 @@ export function ContactSection() {
                             <div>
                                 <p className="text-gray-400 text-sm">Address</p>
                                 <h4 className="text-white font-bold text-lg">
-                                    Mirpur, Dhaka,Bangladesh
+                                    Dhaka, Bangladesh
                                 </h4>
                             </div>
                         </div>
