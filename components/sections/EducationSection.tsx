@@ -1,27 +1,35 @@
+import { GraduationCap, BookOpen, School } from "lucide-react";
+
 const education = [
     {
-        period: "2016 -2020",
+        period: "2016 - 2020",
         title: "B.Sc. in Software Engineering",
-        institution: "American International University–Bangladesh (AIUB)",
-        icon: "school",
+        institution: "American International University Bangladesh (AIUB)",
+        icon: GraduationCap,
         gradient: "from-primary to-blue-600",
-        description: "Comprehensive program covering visual communication, typography, and digital design tools.",
+        cgpa: "CGPA: 3.00 / 4.00",
+        description:
+            "Focused on software development, data structures, algorithms, databases, and modern web technologies.",
     },
     {
         period: "2012 - 2014",
         title: "Higher Secondary Certificate",
         institution: "Rangpur Government College",
-        icon: "code",
+        icon: BookOpen,
         gradient: "from-purple-500 to-pink-500",
-        description: "Advanced studies in software architecture, algorithms, and cloud computing technologies.",
+        cgpa: "GPA: 4.30 / 5.00",
+        description:
+            "Completed higher secondary education with emphasis on science, mathematics, and computer fundamentals.",
     },
     {
         period: "2010 - 2011",
-        title: "Secondary School Certificate |",
+        title: "Secondary School Certificate",
         institution: "Rabaitary S.B.M.L High School",
-        icon: "terminal",
+        icon: School,
         gradient: "from-green-500 to-emerald-500",
-        description: "Intensive program covering HTML, CSS, JavaScript, and modern web frameworks.",
+        cgpa: "GPA: 5.00 / 5.00",
+        description:
+            "Completed secondary education with foundational studies in science and basic computer concepts.",
     },
 ];
 
@@ -47,10 +55,10 @@ export function EducationSection() {
                             className="group bg-card p-8 rounded-[20px] border border-secondary hover:border-primary transition-all duration-300 hover:-translate-y-2"
                         >
                             {/* Icon */}
-                            <div className={`w-14 h-14 bg-gradient-to-br ${item.gradient} rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
-                                <span className="material-symbols-outlined text-white text-2xl">
-                                    {item.icon}
-                                </span>
+                            <div
+                                className={`w-14 h-14 bg-gradient-to-br ${item.gradient} rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
+                            >
+                                <item.icon size={26} className="text-white" />
                             </div>
 
                             {/* Period Badge */}
@@ -62,10 +70,13 @@ export function EducationSection() {
                             <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
                                 {item.title}
                             </h3>
-                            <p className="text-gray-500 text-sm mb-4">{item.institution}</p>
-                            {/* <p className="text-gray-400 text-sm leading-relaxed">
+                            <p className="text-gray-500 text-sm mb-2">{item.institution}</p>
+                            <p className="text-primary text-xs font-semibold mb-3">
+                                {item.cgpa}
+                            </p>
+                            <p className="text-gray-400 text-sm leading-relaxed">
                                 {item.description}
-                            </p> */}
+                            </p>
                         </div>
                     ))}
                 </div>

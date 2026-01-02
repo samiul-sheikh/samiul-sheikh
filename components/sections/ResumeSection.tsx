@@ -53,6 +53,8 @@ const experienceData = [
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">React</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Node.js</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Chakra UI</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">RTK Query</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Prisma</span>
                 </div>
             </div>
         ),
@@ -76,8 +78,8 @@ const experienceData = [
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">WordPress</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Digital Marketing</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">SEO</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Digital Marketing</span>
                 </div>
             </div>
         ),
