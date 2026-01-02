@@ -4,58 +4,36 @@ import Link from "next/link";
 const works = [
     {
         category: "Ecommerce",
-        title: "Eshoppper",
-        description: "Premium e-commerce web application. Design user related all pages. Web Technologies (TypeScript, Tailwind CSS, Framer motion, React JS, Redux Toolkit, RTK Query",
-        image: "https://drive.google.com/uc?export=view&id=1c_L6huRrabGINOymfzDIgGD094TAV0OG",
+        title: "Eshoppers",
+        description:
+            "A modern e-commerce web application focused on performance, usability, and scalable architecture. Designed and developed complete user-facing interfaces with state management and API integration.",
+        image: "/project/eshoppers.png",
         liveUrl: "https://eshoppers-bd.onrender.com",
-        tags: ["Branding", "Graphic Design", "User Stories"],
+        tags: ["Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit"],
         features: [
-            "We provide the most reasonable.",
-            "Finish Work Before Deadline.",
-            "The certified materials in a timely.",
+            "Responsive UI for all devices",
+            "Product listing and details pages",
+            "Cart and checkout flow",
+            "API integration with state management",
         ],
         imageFirst: false,
     },
     {
         category: "Service",
         title: "Compass Architects",
-        description: "Architecture firm official website developed with Wordpress CMS and necessary plugins.",
-        image: "https://drive.google.com/uc?export=view&id=1loICxdox4aP-WTUrU6tZ4tj0y1CFyGaM",
-        tags: ["Wordpress"],
+        description:
+            "Official business website for an architecture firm built with WordPress CMS. Focused on clean design, performance optimization, and easy content management for non-technical users.",
+        image: "/project/compass.png",
         liveUrl: "https://compassarchi.com/",
+        tags: ["WordPress", "Custom Theme", "SEO"],
         features: [
-            "We provide the most reasonable.",
-            "Finish Work Before Deadline.",
-            "The certified materials in a timely.",
+            "Custom WordPress theme",
+            "Service and project showcase pages",
+            "SEO-friendly structure",
+            "Easy content management via CMS",
         ],
         imageFirst: true,
     },
-    // {
-    //     category: "Apps",
-    //     title: "Sebastian",
-    //     description: "Project was about precision and information. That's all. Our design team helps clients achieve their marketing target and branding that appeals to a website.",
-    //     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCNopkpkTWbSN0c0U1Ox1JpN76gGVM-AW5Ar_QIVCykivqQq2SUcpkXIVW_hH0XXHbt_S-Qu_qOGoQ6PXxqvYSrwsebb3mXkZf3AtXbCtD8oKCasp6AH7guxLWp3hqUfG_pZMtSHwi4mQeO-3l5qMREBWgBeygUAvk53Ygi-cLPfx4FaU1MdCpKVvxj_V8NsMNCCVhMkHjpTqHIwq9-LlERNySyF4W7tPr5IcaeYeCwRLWY0BBwaPXR5FdnfJ9IIuDjU--Z8hhrDb0",
-    //     tags: ["Dashboard", "Development", "User Stories"],
-    //     features: [
-    //         "We provide the most reasonable.",
-    //         "Finish Work Before Deadline.",
-    //         "The certified materials in a timely.",
-    //     ],
-    //     imageFirst: false,
-    // },
-    // {
-    //     category: "Branding",
-    //     title: "Mochnix",
-    //     description: "Project was about precision and information. That's all. Our design team helps clients achieve their marketing target and branding that appeals to a website.",
-    //     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuD7s80H78vLkU7_hJV_MrBYcvWAYS2e8AsytKNdtAsDsD3KIWnDpoZFLx--WlTvecWNMDL2CjoE6KLWx0WbFbQI7-snupy3xCmXbupCzfNmgBNnzCT0KNu07wt51MkhRARSu9ssHatslVgVlXTmLz8KA3xGUgHI35ONnSDpjOfvY1ZBTayq_Vh68nPCuXaiqdahb0vS-HCA_9qwOVcW-ZL5UNFyYH5IzvETpsJg2b4kjrOhcPdnhehVa_LKvmFduQlISQseQ2ezATs",
-    //     tags: ["Illustration", "IOS", "User Stories"],
-    //     features: [
-    //         "We provide the most reasonable.",
-    //         "Finish Work Before Deadline.",
-    //         "The certified materials in a timely.",
-    //     ],
-    //     imageFirst: true,
-    // },
 ];
 
 export function WorksSection() {
@@ -151,19 +129,19 @@ export function WorksSection() {
                 <div className="container mx-auto px-6 mt-20">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-10">
                         <div className="flex items-center gap-3">
-                            <span className="text-5xl font-bold text-gradient-blue">7+</span>
+                            <span className="text-5xl font-bold text-gradient-blue">10</span>
                             <span className="text-sm text-gray-400">
                                 Years of <br />Experience
                             </span>
                         </div>
                         <div className="flex items-center gap-3">
-                            <span className="text-5xl font-bold text-gradient-blue">50+</span>
+                            <span className="text-5xl font-bold text-gradient-blue">100+</span>
                             <span className="text-sm text-gray-400">
                                 Project <br />Completed
                             </span>
                         </div>
                         <div className="flex items-center gap-3">
-                            <span className="text-5xl font-bold text-gradient-blue">100+</span>
+                            <span className="text-5xl font-bold text-gradient-blue">50+</span>
                             <span className="text-sm text-gray-400">
                                 Happy <br />Clients
                             </span>
@@ -171,7 +149,7 @@ export function WorksSection() {
                         <div className="flex items-center gap-3">
                             <span className="text-5xl font-bold text-gradient-blue">5</span>
                             <span className="text-sm text-gray-400">
-                                Years of <br />Experience
+                                Years of <br />Industry experience
                             </span>
                         </div>
                     </div>
