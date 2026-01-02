@@ -17,8 +17,8 @@ const experienceData = [
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
-                    Leading a team of developers to build cutting-edge web applications.
-                    Architecting scalable solutions and implementing best practices for code quality and performance.
+                    Led the development of scalable web applications, contributing to system architecture,
+                    performance optimization, and code quality while collaborating closely with cross-functional teams.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Next.js</span>
@@ -26,6 +26,7 @@ const experienceData = [
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">TypeScript</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Tailwind CSS</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">PostgreSQL</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Docker</span>
                 </div>
             </div>
         ),
@@ -44,9 +45,10 @@ const experienceData = [
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
-                    Developed and maintained full-stack applications using React, Node.js, and PostgreSQL.
-                    Collaborated with design teams to implement responsive user interfaces.
+                    Assisted in developing full-stack applications, implementing responsive user interfaces,
+                    and working with APIs and databases under senior developer guidance.
                 </p>
+
                 <div className="flex flex-wrap gap-2 mt-4">
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">React</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Node.js</span>
@@ -69,8 +71,8 @@ const experienceData = [
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
-                    Created intuitive user interfaces and design systems.
-                    Conducted user research and usability testing to improve product experience.
+                    Provided IT and web consulting services, improving online presence through website optimization,
+                    content structure, and digital strategy support.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">WordPress</span>
@@ -90,12 +92,12 @@ const experienceData = [
                     </div>
                     <div>
                         <h4 className="text-xl font-bold text-white">WordPress Developer</h4>
-                        <p className="text-gray-400 text-sm">Online Marketplace</p>
+                        <p className="text-gray-400 text-sm">Local + Online Marketplace</p>
                     </div>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed">
-                    Designed marketing materials, social media graphics, and brand assets.
-                    Collaborated with clients to deliver creative visual solutions.
+                    Developed and customized WordPress websites, including WooCommerce solutions,
+                    landing pages, and client-focused content-driven designs.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Wordpress</span>
