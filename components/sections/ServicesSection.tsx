@@ -1,49 +1,62 @@
 "use client";
 
 import { CometCard } from "@/components/ui/comet-card";
+import {
+    Code2,
+    Database,
+    Globe,
+    Plug,
+    Zap,
+    ShieldCheck,
+} from "lucide-react";
 
 const services = [
     {
         number: "01",
-        icon: "terminal",
+        icon: Code2,
         title: "Frontend Development",
-        description: "Building responsive, high-performance websites using modern frameworks like React, Next.js, and Vue.js with clean, maintainable code.",
+        description:
+            "Building responsive and high-performance websites using modern frameworks like React and Next.js.",
         gradient: "from-blue-500 to-cyan-400",
     },
     {
         number: "02",
-        icon: "database",
+        icon: Database,
         title: "Backend Development",
-        description: "Designing robust server-side solutions with Node.js, Python, and PostgreSQL, including RESTful APIs and GraphQL services.",
+        description:
+            "Developing secure and scalable server-side applications with well-structured APIs, databases, and business logic.",
         gradient: "from-green-500 to-emerald-400",
     },
     {
         number: "03",
-        icon: "smartphone",
-        title: "Wordpress Development",
-        description: "Creating cross-platform mobile applications using React Native and Flutter that deliver native-like experiences on iOS and Android.",
+        icon: Globe,
+        title: "WordPress Development",
+        description:
+            "Creating fast and SEO-friendly WordPress websites with custom themes, plugins, and flexible content management.",
         gradient: "from-purple-500 to-pink-400",
     },
-
     {
         number: "04",
-        icon: "cloud",
-        title: "Cloud Solutions",
-        description: "Deploying and managing applications on AWS, Google Cloud, and Azure with CI/CD pipelines and containerization using Docker.",
+        icon: Plug,
+        title: "API Integration",
+        description:
+            "Integrating third-party and custom APIs using REST and GraphQL for secure and seamless system communication.",
         gradient: "from-orange-500 to-amber-400",
     },
     {
         number: "05",
-        icon: "speed",
+        icon: Zap,
         title: "Performance Optimization",
-        description: "Analyzing and improving website performance, Core Web Vitals, SEO optimization, and delivering lightning-fast user experiences.",
+        description:
+            "Optimizing website speed, Core Web Vitals, SEO performance, and overall user experience across all devices.",
         gradient: "from-red-500 to-rose-400",
     },
     {
         number: "06",
-        icon: "security",
+        icon: ShieldCheck,
         title: "Security & DevOps",
-        description: "Implementing secure authentication, encryption, and automated testing pipelines to ensure robust and reliable applications.",
+        description:
+            "Applying security best practices, authentication, and reliable deployment workflows.",
         gradient: "from-indigo-500 to-violet-400",
     },
 ];
@@ -76,11 +89,12 @@ export function ServicesSection() {
                                         <span className={`text-transparent bg-clip-text bg-gradient-to-r ${service.gradient} font-bold text-lg`}>
                                             {service.number}
                                         </span>
-                                        <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${service.gradient} flex items-center justify-center shadow-lg`}>
-                                            <span className="material-symbols-outlined text-white text-2xl">
-                                                {service.icon}
-                                            </span>
+                                        <div
+                                            className={`w-12 h-12 rounded-xl bg-gradient-to-br ${service.gradient} flex items-center justify-center shadow-lg`}
+                                        >
+                                            <service.icon size={22} className="text-white" />
                                         </div>
+
                                     </div>
 
                                     {/* Content */}
