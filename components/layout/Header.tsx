@@ -5,20 +5,23 @@ export function Header() {
     return (
         <header className="fixed w-full top-0 z-50 bg-[#050709]/90 backdrop-blur-md border-b border-gray-800">
             <div className="container mx-auto px-6 py-6 flex justify-between items-center">
-                <Link href="/" className="flex items-center gap-2 group">
+                {/* <Link href="/" className="flex items-center gap-2 group">
                     <div className="w-10 h-10 bg-gradient-to-br from-primary to-blue-800 rounded-full flex items-center justify-center text-white font-bold text-xl group-hover:scale-110 transition-transform">
                         S
                     </div>
-                    {/* <span className="text-sm font-semibold hidden md:block text-gray-300 group-hover:text-white transition-colors">
+                    <span className="text-sm font-semibold hidden md:block text-gray-300 group-hover:text-white transition-colors">
                         mail@samiulsheikh.com
-                    </span> */}
-                    {/* <Image
+                    </span>
+                </Link> */}
+                <Link href="/" className="flex items-center gap-2 group">
+                    <Image
                         src="/logo.png"
-                        alt="Logo"
-                        width={200}
-                        height={200}
-                        className="w-20 h-20 rounded-full"
-                    /> */}
+                        alt="Samiul Sheikh Logo"
+                        width={150}
+                        height={150}
+                        priority
+                        className="rounded-full object-contain group-hover:scale-110 transition-transform"
+                    />
                 </Link>
 
                 <nav className="hidden md:flex gap-8 text-sm font-medium text-gray-300">
@@ -45,12 +48,17 @@ export function Header() {
                     </Link>
                 </nav>
 
-                <Link
-                    href="https://docs.google.com/document/d/130AeecZ31KtdTB-9yTT-rnJwOkpQZbCXvakVhz0U3l4/export?format=pdf"
-                    className="px-7 py-3 bg-gradient-to-r from-primary to-blue-600 text-white rounded-full font-medium text-sm hover:shadow-[0_0_20px_rgba(43,127,255,0.5)] transition-all transform hover:-translate-y-0.5"
+                <a
+                    href="/Samiul_Sheikh_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-7 py-3 bg-gradient-to-r from-primary to-blue-600
+                    text-white rounded-full font-medium text-sm
+                    hover:shadow-[0_0_20px_rgba(43,127,255,0.5)]
+                    transition-all transform hover:-translate-y-0.5"
                 >
                     Hire Me!
-                </Link>
+                </a>
             </div>
         </header>
     );

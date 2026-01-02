@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { TypingAnimation } from "@/components/ui/typing-animation";
 import { Particles } from "@/components/ui/particles";
+import { Github, Linkedin, X } from "lucide-react";
 
 export function HeroSection() {
     return (
@@ -45,56 +46,38 @@ export function HeroSection() {
 
                     <p className="text-gray-400 max-w-lg leading-relaxed text-lg">
                         I break down complex user experience problems to create integrity-focused
-                        solutions that connect billions of people
+                        solutions that connect billions of data
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 pt-4">
-                        {/* <Link
-                            href="https://docs.google.com/document/d/ID/export?format=pdf"
-                            className="px-8 py-3.5 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all flex items-center gap-2 group text-sm font-medium hover:shadow-[0_0_20px_rgba(43,127,255,0.3)]"
-                        >
-                            Download CV
-                            <span className="material-symbols-outlined text-sm group-hover:translate-y-1 transition-transform">
-                                download
-                            </span>
-                        </Link> */}
-
                         <a
-                            href="https://docs.google.com/document/d/130AeecZ31KtdTB-9yTT-rnJwOkpQZbCXvakVhz0U3l4/export?format=pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="/Samiul_Sheikh_Resume.pdf"
+                            download
                             className="px-8 py-3.5 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all flex items-center gap-2 group text-sm font-medium hover:shadow-[0_0_20px_rgba(43,127,255,0.3)]"
                         >
                             Download CV
-                            <span className="material-symbols-outlined text-sm group-hover:translate-y-1 transition-transform">
-                                download
-                            </span>
                         </a>
-
                         <div className="flex gap-4">
                             <Link
-                                href="#"
-                                className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all hover:scale-110"
+                                href="https://github.com/samiul-sheikh"
+                                target="_blank"
+                                className="w-11 h-11 rounded-full border border-primary/40 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(43,127,255,0.4)]"
                             >
-                                <span className="font-bold text-sm">Tw</span>
+                                <Github size={20} />
                             </Link>
                             <Link
-                                href="#"
-                                className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all hover:scale-110"
+                                href="https://www.linkedin.com/in/samiul-sheikh"
+                                target="_blank"
+                                className="w-11 h-11 rounded-full border border-primary/40 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(43,127,255,0.4)]"
                             >
-                                <span className="font-bold text-sm">Dr</span>
+                                <Linkedin size={20} />
                             </Link>
                             <Link
-                                href="#"
-                                className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all hover:scale-110"
+                                href="https://x.com/SamiulWeb"
+                                target="_blank"
+                                className="w-11 h-11 rounded-full border border-primary/40 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(43,127,255,0.4)]"
                             >
-                                <span className="font-bold text-sm">Li</span>
-                            </Link>
-                            <Link
-                                href="#"
-                                className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all hover:scale-110"
-                            >
-                                <span className="font-bold text-sm">Gh</span>
+                                <X size={20} />
                             </Link>
                         </div>
                     </div>
@@ -119,7 +102,7 @@ export function HeroSection() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-10">
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            14
+                            10
                         </span>
                         <span className="text-sm text-gray-400">
                             Years of <br />Experience
@@ -127,7 +110,7 @@ export function HeroSection() {
                     </div>
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            50+
+                            100+
                         </span>
                         <span className="text-sm text-gray-400">
                             Project <br />Completed
@@ -135,7 +118,7 @@ export function HeroSection() {
                     </div>
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            1.5K
+                            50+
                         </span>
                         <span className="text-sm text-gray-400">
                             Happy <br />Clients
@@ -143,10 +126,10 @@ export function HeroSection() {
                     </div>
                     <div className="flex items-center gap-3">
                         <span className="text-5xl font-bold text-white hover:text-primary transition-colors">
-                            14
+                            5
                         </span>
                         <span className="text-sm text-gray-400">
-                            Years of <br />Experience
+                            Years of industry experience
                         </span>
                     </div>
                 </div>
