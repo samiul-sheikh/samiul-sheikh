@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { TypingAnimation } from "@/components/ui/typing-animation";
 import { Particles } from "@/components/ui/particles";
-import { Github, Linkedin, X } from "lucide-react";
+import { Github, Linkedin, MessageCircle } from "lucide-react";
 
 export function HeroSection() {
     return (
@@ -73,11 +73,13 @@ export function HeroSection() {
                                 <Linkedin size={20} />
                             </Link>
                             <Link
-                                href="https://x.com/SamiulWeb"
+                                href="https://wa.me/8801784097404?text=Hello%20Samiul,%20I%20would%20like%20to%20discuss%20a%20project"
                                 target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Chat on WhatsApp"
                                 className="w-11 h-11 rounded-full border border-primary/40 flex items-center justify-center text-primary hover:bg-primary hover:text-white hover:border-primary transition-all duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(43,127,255,0.4)]"
                             >
-                                <X size={20} />
+                                <MessageCircle size={20} />
                             </Link>
                         </div>
                     </div>
