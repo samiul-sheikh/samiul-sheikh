@@ -1,6 +1,8 @@
 "use client";
 
 import { Timeline } from "@/components/ui/timeline";
+import { Code2, Terminal, Briefcase, Wrench, } from "lucide-react";
+
 
 const experienceData = [
     {
@@ -9,7 +11,7 @@ const experienceData = [
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-primary to-blue-600 rounded-xl flex items-center justify-center">
-                        <span className="material-symbols-outlined text-white text-2xl">code</span>
+                        <Code2 size={26} className="text-white" />
                     </div>
                     <div>
                         <h4 className="text-xl font-bold text-white">Software Engineer</h4>
@@ -37,7 +39,7 @@ const experienceData = [
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
-                        <span className="material-symbols-outlined text-white text-2xl">terminal</span>
+                        <Terminal size={26} className="text-white" />
                     </div>
                     <div>
                         <h4 className="text-xl font-bold text-white">Software Engineer Trainee</h4>
@@ -53,8 +55,8 @@ const experienceData = [
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">React</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Node.js</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Chakra UI</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">RTK Query</span>
                     <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">Prisma</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary text-primary text-xs font-medium">RTK Query</span>
                 </div>
             </div>
         ),
@@ -65,7 +67,7 @@ const experienceData = [
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center">
-                        <span className="material-symbols-outlined text-white text-2xl">palette</span>
+                        <Briefcase size={26} className="text-white" />
                     </div>
                     <div>
                         <h4 className="text-xl font-bold text-white">IT Consultant</h4>
@@ -90,7 +92,7 @@ const experienceData = [
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-500 rounded-xl flex items-center justify-center">
-                        <span className="material-symbols-outlined text-white text-2xl">brush</span>
+                        <Wrench size={26} className="text-white" />
                     </div>
                     <div>
                         <h4 className="text-xl font-bold text-white">WordPress Developer</h4>
