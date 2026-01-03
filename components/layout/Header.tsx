@@ -15,10 +15,10 @@ export function Header() {
                 </Link> */}
                 <Link href="/" className="flex items-center gap-2 group">
                     <Image
-                        src="/logo.png"
+                        src="/samiul_logo.png"
                         alt="Samiul Sheikh Logo"
-                        width={150}
-                        height={150}
+                        width={250}
+                        height={250}
                         priority
                         className="rounded-full object-contain group-hover:scale-110 transition-transform"
                     />
