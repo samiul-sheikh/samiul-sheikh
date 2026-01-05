@@ -8,16 +8,16 @@ const testimonials = [
         text: '"Samiul Sheikh is a professional Designer he really helps my business by providing value to my business."',
         name: "Khairul Hasan Dollon",
         role: "Fonder & CEO",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAzj3s1puV6eTfy5WMjxLa_n3DJkmWVU-FwYNqXC0z9zqW3aimF2KA4bATiLbzOo7cbbqGRzMwA2qlXrr4w8X7ZRaYwmks1BjWHmJe3DQ8lEedLcR6DPKoREgfhzxcygnNh5Al0DdTBNyYj7d-S3J2IJf91tUgrERx5vluCOREubDGvW4M8BPca9EC-TG7bzhSb4HkhQJ0RyuS621jtvsasGlmdZgbN-VDceDCUzM9sl5sRu6Fbw4yY1B76rMs-ArCjjrA5iqw4YZs",
+        image: "/image/testimonial/dollon.jpg"
     },
     {
         icon: "bolt",
-        company: "RS Fashion",
+        company: "Carvers Workshop",
         rating: 5,
         text: '"Amazing work! The attention to detail and creative solutions provided were outstanding."',
-        name: "Redwan Sheikh Lingcon",
+        name: "Redwanul Sarder Tarek",
         role: "Managing Director",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAbzOX7YyO9iARqJnYZj2rQm0EpMnHQp2xPH_asrDc3E2TBHXWDMfxE-fj0Tfm_hDQFHdSbNG0Y5-XQCI7DOMwg8A8tjB0mNv99BvI_OJ8iOoYXdbWfOvz0g65AUlZmzirVMbGr7IYpuDB5SC8J2MPSjZzxUKvuRWWPzrlKCntfnXqoOEshkeeZH354LKfAivqbcY8u0N3eKcHgiNMZdMrm3EXStWlCpnnEjcMI9PKGIHU2xkFGkFCIURHs2G4v28RDZj9go61sc9E",
+        image: "/image/testimonial/tarek.jpg"
     },
 ];
 
