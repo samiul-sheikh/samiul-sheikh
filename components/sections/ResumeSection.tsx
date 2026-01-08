@@ -1,7 +1,7 @@
 "use client";
 
 import { Timeline } from "@/components/ui/timeline";
-import { Code2, Terminal, Briefcase, Wrench, } from "lucide-react";
+import { Code2, Terminal, Briefcase, Wrench, Store, GraduationCap, } from "lucide-react";
 
 
 const experienceData = [
@@ -39,7 +39,9 @@ const experienceData = [
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
-                        <Terminal size={26} className="text-white" />
+                        {/* <Terminal size={26} className="text-white" /> */}
+                        <GraduationCap size={26} className="text-white" />
+
                     </div>
                     <div>
                         <h4 className="text-xl font-bold text-white">Software Engineer Trainee</h4>
@@ -92,7 +94,8 @@ const experienceData = [
             <div className="bg-card p-6 rounded-[20px] border border-secondary">
                 <div className="flex items-center gap-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-500 rounded-xl flex items-center justify-center">
-                        <Wrench size={26} className="text-white" />
+                        {/* <Wrench size={26} className="text-white" /> */}
+                        <Store size={26} className="text-white" />
                     </div>
                     <div>
                         <h4 className="text-xl font-bold text-white">WordPress Developer</h4>
