@@ -1,18 +1,6 @@
 <p align="center">
-  <img 
-    src="https://readme-typing-svg.demolab.com?
-    font=Inter&
-    weight=600&
-    size=28&
-    pause=1000&
-    color=38BDF8&
-    center=true&
-    vCenter=true&
-    width=650&
-    lines=Hi+%F0%9F%91%8B+I'm+Samiul+Sheikh;
-    Software+Engineer+from+Bangladesh+%F0%9F%87%A7%F0%9F%87%A9;
-    Frontend+%26+Full+Stack+Developer;
-    Building+Modern+Web+Experiences"
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Inter&size=28&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Hi%2C+I%27m+Samiul+Sheikh;Software+Engineer+from+Bangladesh+%F0%9F%87%A7%F0%9F%87%A9;Frontend+%26+Full+Stack+Developer;Building+Modern+Web+Experiences"
     alt="Typing SVG"
   />
 </p>
@@ -74,9 +62,9 @@ I’m a **Software Engineer from Bangladesh 🇧🇩** specializing in building 
 ## 🌐 Portfolio & Contact
 
 - 🔗 **Portfolio:** https://samiul-sheikh.vercel.app
-- 📧 **Email:** your@email.com
-- 💼 **LinkedIn:** https://linkedin.com/in/your-link
-- 💬 **WhatsApp:** +880XXXXXXXXXX
+- 📧 **Email:** sheikh.samiul1971@gmail.com
+- 💼 **LinkedIn:** https://linkedin.com/in/samiul-sheikh
+- 💬 **WhatsApp:** +8801784097404
 
 ---
 
