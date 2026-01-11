@@ -1,8 +1,14 @@
 <p align="center">
-<p align="center">
   <img
     src="https://readme-typing-svg.demolab.com?lines=Hi%2C+I%27m+Samiul+Sheikh;Software+Engineer+from+Bangladesh;Frontend+%26+Full+Stack+Developer&center=true&width=600"
     alt="Typing SVG"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=samiul-sheikh&label=Profile%20Views&color=38BDF8&style=flat"
+    alt="Profile Views"
   />
 </p>
 
