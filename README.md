@@ -1,6 +1,7 @@
 <p align="center">
+<p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Inter&size=28&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Hi%2C+I%27m+Samiul+Sheikh;Software+Engineer+from+Bangladesh+%F0%9F%87%A7%F0%9F%87%A9;Frontend+%26+Full+Stack+Developer;Building+Modern+Web+Experiences"
+    src="https://readme-typing-svg.demolab.com?lines=Hi%2C+I%27m+Samiul+Sheikh;Software+Engineer+from+Bangladesh;Frontend+%26+Full+Stack+Developer&center=true&width=600"
     alt="Typing SVG"
   />
 </p>
